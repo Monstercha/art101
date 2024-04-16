@@ -1,0 +1,30 @@
+body {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    background-color: rgb(99, 227, 227);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 5px;
+    color: rgb(26, 6, 118);
+    border-radius: 25px;
+    border-style: ridge;
+    border-width: 10px;
+    border-color: rgb(252, 249, 58);
+}
+
+p {
+    font-family: sans-serif;
+    color: rgb(15, 87, 138);
+    font-size: 40px;
+}
+
+#content{
+    background-color: burlywood;
+    width: 600px;
+    min-height: 500px;
+}
