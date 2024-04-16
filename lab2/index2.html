@@ -1,21 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Lab-2 my first HTML</title>
-    <meta name="Author" content="Eros Yuan">
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Lab 2 - html CSS Starter</title>
+
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script type="text/javascript" src="./js/lab.js" DEFER></script>
 </head>
-
 <body>
-    <div id="content">
-        <h1>Hello World</h1>
-        <p>Hi, my name is Eros Yuan (She/Her). I'm a junior majoring in AGPM. I've dabbled in a bit of HTML and CSS, and
-            have done some basic web design.
-            I'm looking forward to learning more about programming in this class.
-        </p>
-    <img src="img/catmeme.jpg">
-    <div>
-</body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 2 - HTML CSS Starter</h1>
+			<div class="minor-section">
+					<h2>Challenge</h2>
+					<p>We needed to spend a lot of time tweaking the HTML code and solving any problems we encountered while writing it.</p>
+			</div>
 
+			<div class="minor-section">
+					<h2>Problems</h2>
+					<p>We weren't sure how to insert images into the HTML we were writing.</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Reflection</h2>
+					<p>I think as a beginner who comes into contact with HTML for the first time, it is difficult to learn how to edit html and css in a short time, and I do not know some specific css about changing formats and fonts.</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Results</h2>
+					<p>We finished this assignment.</p>
+					<div id="output"></div>
+			</div>
+		</section>
+		<nav id="links">
+			<a href="url">
+			<!-- Put links to other pages (including the homepage) here. -->
+		</nav>
+	</main>
+</body>
 </html>
