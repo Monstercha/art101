@@ -1,21 +1,25 @@
 /*
  * Author: Eros Yuan <yyuan70@ucsc.edu>
- * Created:   25 April 2024
+ * Created:   27 April 2024
  * License: Public Domain
  */
 
 // Define Variables
-make = "Toyota";
-model = "Camry";
-color = "White";
-year = "2023";
+myTransport = ["car", "bicycle", "bus"];
 
-// calculate
-age = 2024 - year;
+//create an object for my main ride 
+
+myMainRide={
+make: "Toyota",
+model: "Camry",
+color: "White",
+year: 2023,
+age :function() {
+    return 2024 - this.year;
+}
+}
 
 // output
-document.writeln("Make: " + make + "<br>");
-document.writeln("Model: " + model + "<br>");
-document.writeln("Color: " + color + "<br>");
-document.writeln("Year: " + year + "<br>");
-document.writeln("Age: " + age + " year<br>");
+document.writeln("Getting around: " + myTransport + "<br>");
+document.writeln("My Main Ride: <pre>", 
+    JSON.stringify(myMainRide, null, '\t'), "</pre>");
