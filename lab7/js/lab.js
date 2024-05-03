@@ -1,25 +1,23 @@
 /*
  * Author: Eros Yuan <yyuan70@ucsc.edu>
- * Created:   27 April 2024
+ * Created:   2 May  2024
  * License: Public Domain
  */
 
-// Define Variables
-myTransport = ["car", "bicycle", "bus"];
+function abcUserName() {
+    var userName = window.prompt("Hi. Please enter your name:");
+    console.log("userName =", userName);
+    var nameArray = userName.split('');
+    console.log("nameArray =", nameArray);
 
-//create an object for my main ride 
+    var nameArraySort = nameArray.sort();
+    console.log("nameArraySort =", nameArraySort);
 
-myMainRide={
-make: "Toyota",
-model: "Camry",
-color: "White",
-year: 2023,
-age :function() {
-    return 2024 - this.year;
+    var nameSorted = nameArraySort.join('');
+    console.log("nameSorted =", nameSorted);
+
+    return nameSorted;
 }
-}
 
-// output
-document.writeln("Getting around: " + myTransport + "<br>");
-document.writeln("My Main Ride: <pre>", 
-    JSON.stringify(myMainRide, null, '\t'), "</pre>");
+// Output
+document.writeln("Welcome. " + abcUserName(), "<br/>");
