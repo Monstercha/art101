@@ -8,6 +8,9 @@ function abcUserName() {
     var userName = window.prompt("Hi. Please enter your name:");
     console.log("userName =", userName);
     var nameArray = userName.split('');
+    
+    var nameNospace = userName.replace('');
+
     console.log("nameArray =", nameArray);
 
     var nameArraySort = nameArray.sort();
