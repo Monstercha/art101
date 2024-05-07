@@ -1,26 +1,27 @@
 /*
  * Author: Eros Yuan <yyuan70@ucsc.edu>
- * Created:   2 May  2024
+ * Created:   6 May  2024
  * License: Public Domain
  */
 
-function abcUserName() {
-    var userName = window.prompt("Hi. Please enter your name:");
-    console.log("userName =", userName);
-    var nameArray = userName.split('');
-    
-    var nameNospace = userName.replace('');
-
-    console.log("nameArray =", nameArray);
-
-    var nameArraySort = nameArray.sort();
-    console.log("nameArraySort =", nameArraySort);
-
-    var nameSorted = nameArraySort.join('');
-    console.log("nameSorted =", nameSorted);
-
-    return nameSorted;
+// Function to add six to a number
+function addSix(x) {
+    var results = x + 6;
+    return results;
 }
 
-// Output
-document.writeln("Welcome. " + abcUserName(), "<br/>");
+// Testing function
+console.log("4 + 6 =", addSix(4)); 
+console.log("16 + 6 =", addSix(16)); 
+
+array = [1, 2, 3, 4, 5, 6, 7];
+console.log("My array", array); 
+
+var result = array.map(addSix);
+console.log("Result",result); 
+
+var result  = array.map(function (x) {
+    return x * 2;
+})
+console.log("Doubled array result", result); 
+
