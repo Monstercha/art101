@@ -1,32 +1,41 @@
 /*
  * Author: Eros Yuan <yyuan70@ucsc.edu>
- * Created:   6 May  2024
+ * Created:   10 May  2024
  * License: Public Domain
  */
 
-// Function to add six to a number
-function addSix(x) {
-    var results = x + 6;
-    return results;
-}
 
-// Testing function
-console.log("4 + 6 =", addSix(4)); 
-console.log("16 + 6 =", addSix(16)); 
+$("#challenge").append("<button id='button-challenge'>Challenge</button>");
+$("#problems").append("<button id='button-problems'>Problems</button>");
+$("#reflection").append("<button id='button-reflection'>Reflection</button>");
+$("#results").append("<button id='button-results'>Results</button>");
 
-array = [1, 2, 3, 4, 5, 6, 7];
-console.log("My array", array); 
+$(document).ready(function() {
+        $("#button-challenge").click(function() {
+            $("#challenge").toggleClass('red');
+        });
+    });
 
-var result = array.map(addSix);
-console.log("Result",result); 
+$(document).ready(function() {
+        $("button-problems").click(function() {
+            $("#problems").toggleClass('green');
+        });
+    });
 
-var result  = array.map(function (x) {
-    return x * 2;
-})
-console.log("Doubled array result", result); 
+$(document).ready(function() {
+        $("#button-reflection").click(function() {
+            $("#reflection").toggleClass('green');
+        });
+    });
 
- // Your map results data
- var mapResults = "Your map results here";
+$(document).ready(function() {
+        $("#button-problems").click(function() {
+            $("#problems").toggleClass('blue');
+        });
+    });
 
- // Use jQuery to select the element by its ID and set the HTML content
- $("#output").html(mapResults);
+$(document).ready(function() {
+        $("#button-results").click(function() {
+            $("#results").toggleClass('yellow');
+        });
+    });

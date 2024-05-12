@@ -49,3 +49,31 @@ p {
 img {
   width: 220px;
 }
+
+.red {
+  color:red;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.blue{
+color:blue;
+font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.green{
+color:green;
+font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.yellow{
+color:yellow;
+font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
