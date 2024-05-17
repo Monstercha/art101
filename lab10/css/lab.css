@@ -60,20 +60,20 @@ p {
   min-height: 100px;
 }
 
-.text:nth-child(odd) {
+.text:nth-child(even) {
   text-align: left;
 }
 
-.text:nth-child(odd) p {
+.text:nth-child(even) p {
   background-color: rgb(233, 233, 233);
   color: black;
 }
 
-.text:nth-child(even) {
+.text:nth-child(odd) {
   text-align: right;
 }
 
-.text:nth-child(even) p {
-  background-color: #459fba;
+.text:nth-child(odd) p {
+  background-color: #ce9d4f;
   color: white;
 }
