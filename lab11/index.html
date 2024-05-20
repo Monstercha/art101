@@ -2,54 +2,55 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="../css/site.css">
-    <link rel="stylesheet" type="text/css" href="css/lab.css">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="js/lab.js" DEFER></script>
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="js/lab.js" DEFER></script>
 </head>
 
 <body>
 
 	<main id="content">
 		<section>
-			<h1>Lab 10: JavaScript for the Web</h1>
+			<h1>Lab 11: JavaScript Events and Forms</h1>
 			<div class="minor-section">
 				<div id="challenge">
-				<h2>challenge</h2>
-				<p>The primary challenge in this week's assignment was incorporating jQuery into a functional webpage.
-					My partner and I decided to experiment with dynamically manipulating DOM elements using jQuery,
-					which was a new and somewhat complex concept for us. </p>
+					<h2>challenge</h2>
+					<p>Adding event listeners and ensuring they performed the desired actions without errors required
+						careful debugging. We had to ensure that the function triggered by the button click accurately
+						retrieved the input value and processed it correctly.
+					</p>
 				</div>
 			</div>
 
 			<div class="minor-section">
 				<div id="problems">
-				<h2>problems</h2>
-				<p>At first, our script did not execute as expected. This was primarily due to the placement of our
-					jQuery script tag. We learned the hard way that jQuery must be loaded before our custom scripts.</p>
+					<h2>problems</h2>
+					<p>During testing, we encountered several bugs. These included issues with the sorting function not
+						working as expected due to incorrect string manipulation and problems with dynamically updating
+						the HTML content within the output div.
+					</p>
 				</div>
 			</div>
 
 			<div class="minor-section">
 				<div id="reflection">
-				<h2>reflection</h2>
-				<p>I learned the importance of understanding the sequence in which scripts load and the nuances of
-					jQuery syntax and selectors. It was enlightening to see how a few lines of jQuery could
-					significantly alter the behavior and style of a webpage without altering the underlying HTML
-					structure. </p>
+					<h2>reflection</h2>
+					<p> We were able to combine our knowledge and skills to overcome challenges more efficiently than working
+						individually. This task enhanced our proficiency with jQuery, particularly in selecting elements, handling events, and manipulating the DOM.</p>
 				</div>
 			</div>
 
 			<div class="minor-section">
 				<div id="results">
-				<h2>results</h2>
-				<p>I successfully completed Lab 10</p>
-			</div>
+					<h2>results</h2>
+					<p>I successfully completed Lab 11</p>
+				</div>
 			</div>
 
 			<div id="output">
-				<input  type="text" id="user-name" placeholder="Input your name">
-				<button id="mybuttom">Submit your answer</button>
+				<input type="text" id="user-name" placeholder="Input your name">
+				<button id="submit">Submit</button>
 			</div>
 
 		</section>

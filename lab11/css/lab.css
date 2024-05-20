@@ -46,34 +46,20 @@ p {
   background-color: #dfdfb2;
 }
 
-img {
-  width: 220px;
-}
-
-.red {
-  color:red;
+#output {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -220px;
+  height: 200px;
+  max-width: 460px;
+  margin-left: 20px;
+  word-wrap: break-word;
+  font-size: 80px;
+  line-height: 90%;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
-}
-
-.blue{
-color:blue;
-font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.green{
-color:green;
-font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.yellow{
-color:yellow;
-font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+  color: rgb(36, 111, 154);
 }
