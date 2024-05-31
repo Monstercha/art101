@@ -3,7 +3,7 @@
  * Created:   25 May  2024
  * License: Public Domain
  */
-maxFactors = 3;
+maxFactors = 4;
 
 outputEl = document.getElementById("output");
 
