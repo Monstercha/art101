@@ -1,0 +1,90 @@
+body {
+  background-color: #db9457;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 40px;
+  color: rgb(36, 111, 154);
+}
+
+h2,
+h3 {
+  font-size: 30px;
+  color: #17338d;
+}
+
+p {
+  font-size: 20px;
+}
+
+#content {
+  margin: 20px;
+  padding: 20px;
+  border: solid 5px #5baf9c;
+  background-color: #d0b296;
+}
+
+.assignmentmajor-section {
+  margin: 20px;
+  padding: 20px;
+  border: solid 5px #3f9d49;
+  background-color: #dfdfb2;
+}
+
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #dfdfb2;
+}
+
+input[type="number"] {
+  width: 40px;
+}
+input[type="text"] {
+  width: 100px;
+}
+
+input#max {
+  width: 60px;
+}
+
+table {
+  padding: 20px;
+}
+
+input, button {
+  font-size: 90%;
+}
+
+div#input, div#output {
+  border: solid 1px #ccc;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#output p {
+  margin-top: 5;
+  margin-bottom: 5;
+  column-width: 200px;
+  -webkit-column-width: 200px;
+}
+
+#output.cols {
+  -webkit-column-width: 200px;
+  -moz-column-width: 200px; 
+  column-width: 200px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
