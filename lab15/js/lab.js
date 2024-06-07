@@ -3,6 +3,7 @@
  * Created:  01 June  2024
  * License: Public Domain
  */
+
 $.ajax({
     url: "https://yesno.wtf/api",
     data: {
